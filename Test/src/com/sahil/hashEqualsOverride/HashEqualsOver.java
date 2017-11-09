@@ -61,7 +61,7 @@ public class HashEqualsOver {
 	
 	@Override
 	public int hashCode(){
-		int result = 17;
+		int result = 17 ;
 		result = result*31+age;
 		result = result*31+address.hashCode();
 		result = result*31+name.hashCode();
