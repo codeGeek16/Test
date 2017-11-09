@@ -43,7 +43,7 @@ public class Fruit implements Comparable<Fruit>{
 	//compare to override
 	public int compareTo(Fruit f){
 		//compare based on string value
-		return this.name.compareTo(f.name);
+		return this.name.toUpperCase().compareTo(f.name.toUpperCase());
 		//compare based on integer value
 		//return this.quantity - f.quantity;
 	}
