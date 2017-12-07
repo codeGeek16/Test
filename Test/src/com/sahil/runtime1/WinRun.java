@@ -46,6 +46,9 @@ public class WinRun {
 		System.out.println(li.contains("mgwmapp.exe"));
 		System.out.println(System.getProperty("user.name"));
 		System.out.println(hostName);
+		long l = new Long(0)-new Long(2000);
+		System.out.println(l/1000
+				);
 		
 	}
 }
